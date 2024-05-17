@@ -6,7 +6,6 @@
 }
 .white-bg{
     background-color: var(--white-color);
-    
 }
 .main-content{
     max-width: 120rem;
@@ -15,4 +14,7 @@
 }
 .section{
     min-height: 100vh;
+}
+.menu-spacing{
+    height: 63px;
 }
