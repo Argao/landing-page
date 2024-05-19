@@ -2,7 +2,7 @@
 :root{
     --monteserrat:"Montserrat", sans-serif;
     --open-sans:"Open Sans", sans-serif;
-    --light-gray: #EEEEEE;
+    --light-gray-color: #EEEEEE;
     --primary-color: #0A1128;
     --seconder-color: crimson;
     --white-color: white;
@@ -60,6 +60,33 @@ p{
     margin-bottom: 3rem;
 }
 
+.responsive-table{
+    overflow: hidden;
+    overflow-x: auto;
+
+}
+table{
+    min-width: 36rem;
+    width: 100%;
+    border-collapse: collapse;
+}
+table caption{
+    font-style: italic;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+table th, table td{
+    white-space: nowrap;
+    padding: 1rem;
+    text-align: left;
+    border: 0.1rem solid var(--light-gray-color);
+}
+
+tfoot td, table th{
+    background-color: var(--light-gray-color);
+}
+
 
 
 
@@ -94,7 +121,7 @@ p{
     left: 0;
     right: 0;
     width: 100%;
-    border-bottom: 0.1rem solid var(--light-gray);
+    border-bottom: 0.1rem solid var(--light-gray-color);
     z-index: 1;
 }
 .menu-content{
@@ -233,3 +260,5 @@ p{
 .galerry-img img:hover{
     transform: translate(-3%,3%) scale(1.2) rotate(5deg);
 }
+
+/*-----------------Pricing----------------- */
